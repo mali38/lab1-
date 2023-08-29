@@ -1,0 +1,56 @@
+---
+title: "Lab 1 - Reproducible research with RMarkdown and Github"
+author: "Fill in your full name"
+date: "`r Sys.Date()`"
+documentclass: article
+geometry: margin=1in
+fontsize: 11pt
+output:
+  pdf_document:
+    toc: false
+    df_print: kable
+    number_sections: no
+    dev: pdf
+    highlight: tango
+    extra_dependencies: ["float"]
+---
+
+```{r setup, include=FALSE}
+# DO NOT ALTER CODE IN THIS CHUNK
+# Set knitr options
+knitr::opts_chunk$set(
+  echo = TRUE, eval = TRUE, fig.width = 5,
+  fig.asp = 0.618, out.width = "80%", dpi = 120,
+  fig.position = "!h", cache = FALSE
+)
+# Load packages
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+---
+
+## Exercise 2
+
+
+
+
+## Exercise 3
+
+
+
+
+## Exercise 4
+
+
+
+
+## Exercise 5
+
+
+
+
+## Exercise 6
+
+
+
+
